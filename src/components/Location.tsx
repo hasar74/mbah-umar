@@ -57,11 +57,11 @@ export default function Location() {
           </div>
         </div>
 
-        {/* Peta lokasi (dapat diganti dengan koordinat pasti bila tersedia) */}
-          <div className="rounded-sm overflow-hidden border border-parchment/15">
+        {/* Peta lokasi */}
+        <div className="rounded-sm overflow-hidden border border-parchment/15">
           <iframe
             title="Peta Lokasi Makam Mbah Umar Taliworo, Klaling, Jekulo, Kudus"
-            src="https://www.google.com/maps?q=Maqbaroh+Mbah+Umar+Taliworo,-6.7883367,110.9181576&z=17&output=embed"
+            src="https://maps.google.com/maps?q=-6.7883367,110.9181576&z=17&output=embed"
             className="w-full h-80 grayscale-[20%]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
