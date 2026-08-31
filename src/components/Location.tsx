@@ -58,15 +58,27 @@ export default function Location() {
         </div>
 
         {/* Peta lokasi (dapat diganti dengan koordinat pasti bila tersedia) */}
-        <div className="rounded-sm overflow-hidden border border-parchment/15">
+          <div className="rounded-sm overflow-hidden border border-parchment/15">
           <iframe
             title="Peta Lokasi Makam Mbah Umar Taliworo, Klaling, Jekulo, Kudus"
-            src="https://www.google.com/maps/place/Maqbaroh+Mbah+Umar+Taliworo/@-6.7861444,110.8133063,13z/data=!4m10!1m2!2m1!1smbah+umar+jekulo!3m6!1s0x2e70d1d8e867c9d3:0x2c74c8ca44d762fa!8m2!3d-6.7883367!4d110.9181576!15sChBtYmFoIHVtYXIgamVrdWxvkgEIY2VtZXRlcnngAQA!16s%2Fg%2F11h4nbsbqz?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
+            src="https://www.google.com/maps?q=Maqbaroh+Mbah+Umar+Taliworo,-6.7883367,110.9181576&z=17&output=embed"
             className="w-full h-80 grayscale-[20%]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
+
+        
+          href="https://maps.app.goo.gl/AXdSBfxZB4VzgkW37"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 rounded-sm border border-gold/60 font-sans text-sm text-gold-soft hover:bg-gold/10 transition-colors"
+        >
+          Buka di Google Maps
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M7 17L17 7M17 7H8M17 7v9" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </a>
 
         <p className="font-serif italic text-parchment/50 text-xs mt-4">
           Sumber referensi tambahan mengenai lokasi ziarah dapat ditelusuri
