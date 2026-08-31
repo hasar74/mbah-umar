@@ -61,7 +61,7 @@ export default function Location() {
         <div className="rounded-sm overflow-hidden border border-parchment/15">
           <iframe
             title="Peta Lokasi Makam Mbah Umar Taliworo, Klaling, Jekulo, Kudus"
-            src="https://www.google.com/maps?q=Klaling,+Jekulo,+Kudus,+Jawa+Tengah&output=embed"
+            src="https://maps.app.goo.gl/AXdSBfxZB4VzgkW37"
             className="w-full h-80 grayscale-[20%]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
